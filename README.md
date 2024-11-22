@@ -76,6 +76,10 @@ e.g.
 ```yml
 placeholderapi-placeholders:
   allowflight: "%player_allow_flight%"
+  spawnx: "%math_{player_x}<501%"
+  spawnz: "%math_{player_z}<501%"
+  spawnnegx: "%math_{player_x}>-501%"
+  spawnnegz: "%math_{player_z}>-501%"
 ```
 
 > allowflight=true
